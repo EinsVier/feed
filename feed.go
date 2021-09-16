@@ -82,6 +82,7 @@ func ToXML(feed XmlFeed) (string, error) {
 	}
 	// strip empty line from default xml header
 	s := xml.Header[:len(xml.Header)-1] + string(data)
+	s = s + "<?xml-stylesheet type="text/xsl" href="https://go.f4.htw-berlin.de/rss/rss.xsl" media="screen" ?>"
 	return s, nil
 }
 
