@@ -1,4 +1,4 @@
-## gorilla/feeds
+## EinsVier/feeds
 [![GoDoc](https://godoc.org/github.com/gorilla/feeds?status.svg)](https://godoc.org/github.com/gorilla/feeds)
 [![CircleCI](https://circleci.com/gh/gorilla/feeds.svg?style=svg)](https://circleci.com/gh/gorilla/feeds)
 
